@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men Pants</title>
+    <link rel="icon" type="image/x-icon" href="./images/icon.PNG"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!--internal css-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .heading-tagline{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(45, 44, 42);
+            border-bottom: 2px solid rgb(245, 237, 237);
+            height: 100px; 
+            width: 100%;
+        }
+        .heading-tagline h1{
+            color: rgb(244, 238, 238);
+            text-shadow: 2px 2px rgb(141, 14, 14);
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-items: center;
+            align-items: center;
+            background-color: rgb(45, 44, 42);
+        }
+        .card {
+            margin: 15px;
+            border: 2px solid rgb(249, 234, 234) !important;
+        }
+        
+        
+        .card-img-top {
+            width: 100%;
+            height: 250px;
+            border-bottom: 2px solid black;
+        }
+        .card-body{
+            text-align: center;
+        }
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .card-text {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-root"></div>
+    <div class="heading-tagline"><h1>Men Pants</h1></div>
+    <div class="product-grid">
+
+       <!--pants-->
+        <div class="card" style="width: 250px;">
+            <img class="card-img-top" src="./clothesimages/featuredproducts/slim-trouser.webp" alt="slim-trouser">
+            <div class="card-body">
+              <h5 class="card-title">Slim Trouser <br> &#8377 800</h5>
+              <p class="card-text">Men Slim Fit Light Green Cotton Blend Trousers</p>
+              <a href="#" class="btn btn-success"><i class="cart fa fa-shopping-cart" style="font-size: 20px;"></i> Add to cart</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 250px;">
+            <img class="card-img-top" src="./clothesimages/featuredproducts/black-trouser.webp" alt="black-trouser">
+            <div class="card-body">
+              <h5 class="card-title">Black Trouser <br> &#8377 1000</h5>
+              <p class="card-text">Men Slim Fit dark black Cotton Blend Trousers</p>
+              <a href="#" class="btn btn-success"><i class="cart fa fa-shopping-cart" style="font-size: 20px;"></i> Add to cart</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 250px;">
+            <img class="card-img-top" src="./clothesimages/man/7.webp" alt="Khaki Cotton Blend Trousers">
+            <div class="card-body">
+              <h5 class="card-title">Khaki Cotton Trousers<br> &#8377 1500</h5>
+              <p class="card-text">Men Slim Fit Khaki Cotton Blend Trousers</p>
+              <a href="#" class="btn btn-success"><i class="cart fa fa-shopping-cart" style="font-size: 20px;"></i> Add to cart</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 250px;">
+            <img class="card-img-top" src="./clothesimages/man/8.webp" alt="Green Cotton Blend Trousers">
+            <div class="card-body">
+              <h5 class="card-title">Green Cotton Trousers<br> &#8377 2500</h5>
+              <p class="card-text">Men Light Green Cotton Trousers</p>
+              <a href="#" class="btn btn-success"><i class="cart fa fa-shopping-cart" style="font-size: 20px;"></i> Add to cart</a>
+            </div>
+        </div>
+
+        
+        <div class="card" style="width: 250px;">
+            <img class="card-img-top" src="./clothesimages/man/9.webp" alt="Green Lycra Blend Trousers">
+            <div class="card-body">
+              <h5 class="card-title">Green Lycra Trousers<br> &#8377 2500</h5>
+              <p class="card-text">Men Green Lycra Blend Trousers</p>
+              <a href="#" class="btn btn-success"><i class="cart fa fa-shopping-cart" style="font-size: 20px;"></i> Add to cart</a>
+            </div>
+        </div>
+
+
+ 
+    </div>
+    <div id="footer-root"></div>
+    <script src="script.js"></script>
+</body>
+</html>
